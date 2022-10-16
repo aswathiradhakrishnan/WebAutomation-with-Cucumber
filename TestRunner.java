@@ -5,7 +5,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="C:\\Users\\gsjij\\Eclipse_Appzlogic\\CucumberBDD\\Feature\\cucumber.feature",
-				glue= {"AmazonStepdef"},
+				glue= {"Stepdef"},
 				monochrome=true,
 				tags="@Amazon",
 				plugin={"pretty","html:target/HtmlReports"}
