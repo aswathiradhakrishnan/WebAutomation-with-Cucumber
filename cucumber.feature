@@ -2,7 +2,7 @@ Feature: Amazon add to cart
 @Amazon
 Scenario: Verify right products added to amazon cart
 	Given The Home page is visible
-  	Then Select Electronics from the category displayed on the upper bar
+  	When Select Electronics from the category displayed on the upper bar
     Then Get the Description text displayed for any product you want to select/buy and save that in properties file
     And Get the description and price for all the product displayed on the page and write down them into an excel file , In the columns - Product Description and Product Price respectively
     Then Verify the options are displayed according the the filter
